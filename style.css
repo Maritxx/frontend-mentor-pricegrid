@@ -1,1 +1,111 @@
+/*Global Styles*/
+body {
+	background-color: var(--bg-primary);
+	font-family: var(--main-font);
+}
 
+.price-grid__section {
+	min-height: 100vh;
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 80px 40px;
+}
+
+
+/*Font Styles*/
+h1 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--content-main);
+}
+
+h2 {
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: var(--content-tertiary);
+}
+
+h3 {
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: var(--text-primary);
+}
+
+.grid-top__holder p {
+	font-size: 0.875rem;
+	font-weight: 400;
+	color: var(--text-secondary);
+}
+
+.price__text {
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: var(--content-secondary);
+}
+
+.price-amount__text {
+	font-size: 2rem;
+	font-weight: 700;
+	color: var(--text-primary);
+}
+
+.price-info__text {
+	font-size: 1.1rem;
+	font-weight: 400;
+	color: var(--text-primary)
+}
+
+li {
+	font-size: 0.875rem;
+	font-weight: 400;
+	color: var(--text-primary);
+}
+
+/*Price Grid Section*/
+.grid__holder {
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.grid-top__holder {
+	background-color: var(--text-primary);
+	padding: 20px;
+}
+
+.sign-up__box {
+	background-color: var(--content-main);
+	padding: 20px;
+}
+
+.why-us__box {
+	background-color: var(--content-secondary);
+	padding: 20px;
+}
+
+.button a {
+	width: 100%;
+	text-align: center;
+	padding: 10px 0px;
+	background-color: var(--content-tertiary);
+	color: var(--text-primary);
+	font-weight: 700;
+	font-size: 1.1rem;
+	border-radius: 5px;
+}
+
+/*Media Queries*/
+@media screen and (min-width: 769px) {
+	.grid-bottom__holder {
+		display: flex;
+	}
+
+	.sign-up__box, .why-us__box {
+		flex: 0 1 50%;
+		width: 100%;
+	}
+}
