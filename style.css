@@ -6,7 +6,7 @@ body {
 
 .price-grid__section {
 	min-height: 100vh;
-	max-width: 800px;
+	max-width: 420px;
 	width: 100%;
 	margin: 0 auto;
 	display: flex;
@@ -19,7 +19,7 @@ body {
 
 /*Font Styles*/
 h1 {
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	font-weight: 700;
 	color: var(--content-main);
 	padding-bottom: 25px;
@@ -74,7 +74,6 @@ li {
 	font-size: 0.875rem;
 	font-weight: 400;
 	color: #ffffffab;
-	padding-bottom: 25px;
 }
 
 /*Price Grid Section*/
@@ -85,17 +84,17 @@ li {
 
 .grid-top__holder {
 	background-color: var(--text-primary);
-	padding: 20px;
+	padding: 30px;
 }
 
 .sign-up__box {
 	background-color: var(--content-main);
-	padding: 20px;
+	padding: 30px;
 }
 
 .why-us__box {
 	background-color: var(--content-secondary);
-	padding: 20px;
+	padding: 30px;
 }
 
 .button a {
@@ -115,6 +114,10 @@ li {
 
 /*Media Queries*/
 @media screen and (min-width: 601px) {
+	.price-grid__section {
+		max-width: 800px;
+	}
+
 	.grid-top__holder, .sign-up__box, .why-us__box {
 		padding: 40px;
 	}
