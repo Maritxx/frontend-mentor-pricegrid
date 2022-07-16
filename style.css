@@ -80,6 +80,9 @@ li {
 .grid__holder {
 	border-radius: 5px;
 	overflow: hidden;
+	-webkit-box-shadow: 0px 22px 25px 0px rgba(152,166,189,0.29);
+	-moz-box-shadow: 0px 22px 25px 0px rgba(152,166,189,0.29);
+	box-shadow: 0px 22px 25px 0px rgba(152,166,189,0.29);
 }
 
 .grid-top__holder {
